@@ -1,0 +1,67 @@
+/*=====================    БАЗА    =====================*/
+section {
+  padding: 30px;
+}
+/*=====================    ШАПКА    =====================*/
+header img {
+  width: 200px;
+  height: auto;
+}
+/*=====================    ГЛАВНАЯ   =====================*/
+section#main nav#searchRoom select,
+section#main nav#searchRoom input {
+  margin: 20px;
+}
+section#main nav#searchRoom input {
+  width: 155px;
+}
+section#main .about img {
+  width: 300px;
+}
+/*=====================    ВИДЫ НОМЕРОВ    =====================*/
+section#info {
+  text-align: center;
+  background-color: #6995db;
+}
+section#info h2 {
+  color: #eaecef;
+  font-size: 39px;
+}
+section#info img {
+  width: 270px;
+  height: auto;
+}
+section#info img:hover {
+  opacity: 0.7;
+}
+/*=====================    СПИСОК НОМЕРОВ    =====================*/
+section#roomsList .roomHeader {
+  text-align: center;
+}
+section#roomsList .roomHeader h2 {
+  padding-bottom: 5px;
+  border-bottom: 0.7px dashed black;
+}
+/*==========================    РЕГИСТРАЦИЯ И АВТОРИЗАЦИЯ   ========================*/
+section#register form {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: #f2f2f2;
+}
+/*=====================    АДМИН ПАНЕЛЬ   =====================*/
+div#adminNav li {
+  padding: 7px 3px;
+}
+section#admin .roomlist input {
+  width: 100%;
+}
+section#adminstory {
+  text-align: center;
+}
+/*=============================    ПОДВАЛ    ===========================*/
+footer {
+  padding-top: 15px;
+  margin-top: 14px;
+}
